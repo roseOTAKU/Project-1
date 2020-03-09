@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #ad1a1a;
+}
+header {
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #0ac151 0%,
+    white 75%,
+    #0ac151 100%
+  );
+  background-image: -moz-linear-gradient(
+    45deg,
+    #0ac151 0%,
+    white 75%,
+    #0ac151 100%
+  );
+  background-image: -o-linear-gradient(
+    45deg,
+    #0ac151 0%,
+    white 75%,
+    #0ac151 100%
+  );
+  background-image: linear-gradient(45deg, #0ac151 0%, white 75%, #0ac151 100%);
+  padding: 15px;
+}
+header img {
+  float: left;
+  padding-right: 15px;
+  width: 90px;
+  height: 90px;
+}
+header h1 {
+  font-size: 250%;
+  text-shadow: -2px -2px #ad1a1a;
+}
+header h3 {
+  font-size: 140%;
+  padding-bottom: 15px;
+  font-style: italic;
+}
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  width: 800px;
+  background-color: whitesmoke;
+  border: 3px solid black;
+  box-shadow: 0 9px 20px 9px;
+  margin: auto;
+}
+#mainMenu {
+  clear: left;
+}
+#nainMenu ul {
+  list-style: none;
+  position: relative;
+}
+#mainMenu ul li {
+  float: left;
+  position: relative;
+}
+#mainMenu ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+#nav_menu ul ul li {
+  float: none;
+}
+#mainMenu ul li:hover > ul {
+  display: block;
+}
+#mainMenu > ul::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+#mainMenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#mainMenu ul li a {
+  text-align: center;
+  display: block;
+  width: 160px;
+  padding: 0.7em 0;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+#mainMenu ul li a.current {
+  color: #0ac151;
+}
+#mainMenu ul li a:hover,
+#mainMenu ul li a:focus {
+  background-color: #ad1a1a;
+}
+#mainMenu ul li ul li > ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+#navList ul {
+  list-style: none;
+  padding-left: 1.5em;
+  width: 130px;
+  float: left;
+}
+#navList ul li {
+  width: 110px;
+  margin-bottom: 0.5em;
+  border: 2px solid black;
+}
+#navList ul li a {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #0ac151;
+  padding: 0.5em 0 0.5em 0.5em;
+  color: black;
+  font-weight: bold;
+}
+#navList img {
+  display: inline-block;
+  margin-left: 1px;
+  padding-left: 1px;
+  width: 45px;
+  height: 45px;
+}
+footer {
+  clear: both;
+  border-top: 2px solid black;
+  padding: 15px;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #0ac151 0%,
+    white 75%,
+    #0ac151 100%
+  );
+  background-image: -moz-linear-gradient(
+    45deg,
+    #0ac151 0%,
+    white 75%,
+    #0ac151 100%
+  );
+  background-image: -o-linear-gradient(
+    45deg,
+    #0ac151 0%,
+    white 75%,
+    #0ac151 100%
+  );
+  background-image: linear-gradient(45deg, #0ac151 0%, white 75%, #0ac151 100%);
+}
+footer p {
+  font-size: 90%;
+  text-align: center;
+}
+section {
+  width: 430px;
+  float: left;
+}
+/*Main Template CSS*/
